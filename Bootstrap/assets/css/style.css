@@ -1,0 +1,69 @@
+/*Estilos da página index.html*/
+.center {
+    text-align: center;
+    font-size: 20px;
+    color: white
+}
+.justify{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+}
+
+#cabeçalho {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#menu li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+#menu li a {
+    text-decoration: none;
+    font-size: 25px; 
+    color: white;  
+}
+.p-30 {
+    padding: 30px;
+}
+#menu li a:hover {
+    color: rgb(54, 138, 110)
+}
+.br-50 {
+    border-radius: 50%;
+}
+.fundo {
+    background-image: url(https://images5.alphacoders.com/909/909769.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    height: cover;
+}
+.tm {
+    width: 50px;
+    height: 50px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.mr-50{
+    margin-right: 50px;
+}
+.tcw{
+    color: white;
+}
+/*Estilos da página contato.html*/
