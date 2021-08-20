@@ -18,8 +18,8 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-light" href="#">FJGames</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,24 +27,26 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+              <a class="nav-link text-light " href="#">Home <span class="sr-only">(página atual)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-light" href="#">Links</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Jogos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
+                <a class="dropdown-item" href="#">Jogos de ação</a>
+                <a class="dropdown-item" href="#">Jogos de terror</a>
+                <a class="dropdown-item" href="#">Jogos de aventura</a>
+                <a class="dropdown-item" href="#">Jogos de corrida</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
+                <a class="dropdown-item" href="#">Todas as categorias</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Desativado</a>
+              <a class="nav-link disabled text-light" href="#">Sobre</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -81,14 +83,14 @@
         </a>
       </div>
 
-      <div class="jumbotron jumbotron-fluid bg-dark">
+      <div class="jumbotron jumbotron-fluid bg-dark text-light">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+          <h1 class="display-4">Seja bem vindo</h1>
+          <p class="lead">Este é um site com a temática gamer, afinal jogos são para todos, e diverte a todos!!!</p>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container ">
         <div class="card-columns">
             <div class="card">
               <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
@@ -184,11 +186,17 @@
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
             </div>
            
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+            <div class="form-group justify-content-center">
+              <label for="exampleFormControlTextarea1">Assunto</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-  
+            <form>
+                <div class="form-group row d-flex">
+                  <label for="staticEmail" class="col-sm-2 col-form-label ">Email:</label>
+                  <div class="col-lg-10">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@exemplo.com">
+                  </div>
+                </div>
             <div class="form-group d-flex justify-content-end">
               <button class="btn btn-outline-success">Enviar</button>
             </div>
